@@ -1,0 +1,23 @@
+{
+  "name": "leaflet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "leaflet.markercluster": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniOtero/leaflet-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniOtero/leaflet-demo/issues"
+  },
+  "homepage": "https://github.com/DaniOtero/leaflet-demo#readme"
+}

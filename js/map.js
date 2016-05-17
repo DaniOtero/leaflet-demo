@@ -9,8 +9,12 @@ var osm = new L.TileLayer(osmUrl, {
 });
 osm.addTo(demoMap);
 
+var markerCluster = L.markerClusterGroup();
+
 for (var i = 0; i < locations.length; i++) {
     var marker = L.marker(locations[i])
     marker.bindPopup('<p>Latitud:'+locations[i][0]+'</p><p>Longitud:'+locations[i][1]+'</p>');
-    marker.addTo(demoMap);
+    markerCluster.addLayer(marker);
 }
+
+demoMap.addLayer(markerCluster);
